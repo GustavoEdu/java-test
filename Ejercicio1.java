@@ -2,7 +2,7 @@ import java.util.*;
 public class Ejercicio1 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    System.out.println("Introduzca una numero: ");
+    System.out.print("Introduzca una numero: ");
     int num = sc.nextInt();
     System.out.println("El factorial de dicho numero es: " + factorial(num));
   }
